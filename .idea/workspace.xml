@@ -2,8 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf94f493-78bb-4bef-a14d-4b19ff64c42e" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/questionnarie/CuestionarioService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/questionnarie/CuestionarioService.groovy" />
+=======
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ApplicationResources$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ApplicationResources$_run_closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ApplicationResources.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BootStrap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure4_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure5_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure6_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure6_closure9_closure10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1_closure2_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UrlMappings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/resources$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/resources.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Encuesta-dental-grailsPlugins.iml" afterPath="$PROJECT_DIR$/Encuesta-dental-grailsPlugins.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Encuesta-dental.iml" afterPath="$PROJECT_DIR$/Encuesta-dental.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/questionnarie/QuestionnarieController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/questionnarie/QuestionnarieController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/questionnarie/Questionnarie.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/questionnarie/Questionnarie.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/questionnarie/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/questionnarie/index.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/questionnarie/principal.gsp" afterPath="$PROJECT_DIR$/grails-app/views/questionnarie/principal.gsp" />
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
     </list>
     <ignored path="encuesta-dental.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,10 +110,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="bootstrap.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/bootstrap.gsp">
           <provider selected="true" editor-type-id="text-editor">
             <state line="53" column="19" selection-start="1604" selection-end="1604" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="0" selection-start="1527" selection-end="1527" vertical-scroll-proportion="-20.166666">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/bootstrap.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="19" selection-start="1604" selection-end="1604" vertical-scroll-proportion="-17.041666">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
               <folding />
             </state>
           </provider>
@@ -83,7 +147,11 @@
       <file leaf-file-name="QuestionnarieController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/questionnarie/QuestionnarieController.groovy">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="44" column="57" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0">
+=======
+            <state line="44" column="57" selection-start="1098" selection-end="1098" vertical-scroll-proportion="-3.9387755">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
               <folding />
             </state>
           </provider>
@@ -92,12 +160,17 @@
       <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="4" column="40" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+=======
+            <state line="4" column="40" selection-start="135" selection-end="135" vertical-scroll-proportion="-1.2765957">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="principal.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/principal.gsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,6 +184,12 @@
         <entry file="file://$PROJECT_DIR$/grails-app/services/questionnarie/CuestionarioService.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state line="127" column="57" selection-start="4908" selection-end="4908" vertical-scroll-proportion="3.0334394">
+=======
+      <file leaf-file-name="principal.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/principal.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="0" selection-start="1678" selection-end="1678" vertical-scroll-proportion="1.8846816">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
               <folding />
             </state>
           </provider>
@@ -122,7 +201,11 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="10" column="22" selection-start="126" selection-end="153" vertical-scroll-proportion="0.0">
+=======
+            <state line="10" column="22" selection-start="126" selection-end="153" vertical-scroll-proportion="-3.3333333">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
               <folding />
             </state>
           </provider>
@@ -134,7 +217,11 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="12" column="31" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
+=======
+            <state line="12" column="31" selection-start="162" selection-end="162" vertical-scroll-proportion="-4.0">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
               <folding />
             </state>
           </provider>
@@ -146,7 +233,11 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="11" column="47" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+=======
+            <state line="11" column="47" selection-start="141" selection-end="141" vertical-scroll-proportion="-3.6666667">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
               <folding />
             </state>
           </provider>
@@ -158,7 +249,11 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="15" column="23" selection-start="282" selection-end="324" vertical-scroll-proportion="0.0">
+=======
+            <state line="15" column="23" selection-start="282" selection-end="324" vertical-scroll-proportion="-5.0">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
               <folding />
             </state>
           </provider>
@@ -181,6 +276,10 @@
         <option value="$PROJECT_DIR$/grails-app/domain/Result.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/questionnarie/Answer.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/questionnarie/QuestionnarieState.groovy" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/grails-app/services/questionnarie/CuestionarioService.groovy" />
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
         <option value="$PROJECT_DIR$/grails-app/views/questionnarie/_backButton.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/questionnarie/_answerQuestion.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/questionnarie/_terms.gsp" />
@@ -192,12 +291,20 @@
         <option value="$PROJECT_DIR$/grails-app/controllers/questionnarie/QuestionnarieController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/questionnarie/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/questionnarie/principal.gsp" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/grails-app/services/questionnarie/CuestionarioService.groovy" />
+=======
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="y" value="22" />
+=======
+    <option name="x" value="3" />
+    <option name="y" value="63" />
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
     <option name="width" value="1440" />
     <option name="height" value="811" />
   </component>
@@ -215,7 +322,11 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
+<<<<<<< HEAD
     <navigator proportions="" version="1" splitterProportion="0.5">
+=======
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -226,13 +337,44 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
+<<<<<<< HEAD
     <panes />
+=======
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="encuesta-dental" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="encuesta-dental" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+<<<<<<< HEAD
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+=======
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -357,13 +499,17 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="cf94f493-78bb-4bef-a14d-4b19ff64c42e" name="Default" comment="" />
+=======
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
       <created>1352851993321</created>
       <updated>1352851993321</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="0" y="22" width="1440" height="811" extended-state="6" />
     <editor active="true" />
     <layout>
@@ -377,17 +523,41 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="3" y="63" width="1440" height="811" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32998565" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -447,58 +617,62 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/_backButton.gsp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="2" column="90" selection-start="125" selection-end="125" vertical-scroll-proportion="-0.63829786" />
+=======
+        <state line="2" column="90" selection-start="125" selection-end="125" vertical-scroll-proportion="-0.63829786">
+          <folding />
+        </state>
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/_finished.gsp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+=======
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1348155408000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1348155408000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/_terms.gsp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" />
+=======
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+=======
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="35" column="42" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="0" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/bootstrap.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="19" selection-start="1604" selection-end="1604" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="256" selection-end="264" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/questionnarie/QuestionnarieController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="57" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="40" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+=======
+        <state line="35" column="42" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -508,51 +682,157 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="126" selection-end="153" vertical-scroll-proportion="0.0">
+        <state line="10" column="22" selection-start="126" selection-end="153" vertical-scroll-proportion="-3.3333333">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/bootstrap.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="19" selection-start="1604" selection-end="1604" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/questionnarie/Answer.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="31" selection-start="162" selection-end="162" vertical-scroll-proportion="-4.0">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="28" selection-start="256" selection-end="264" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/questionnarie/QuestionnarieController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="57" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/questionnarie/Questionnarie.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="23" selection-start="282" selection-end="324" vertical-scroll-proportion="-5.0">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="40" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/grails-app/services/questionnarie/CuestionarioService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="146" selection-start="4854" selection-end="4854" vertical-scroll-proportion="0.593949">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/questionnarie/Question.groovy">
+=======
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/questionnarie/Result.groovy">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="10" column="22" selection-start="126" selection-end="153" vertical-scroll-proportion="0.0">
+=======
+        <state line="11" column="47" selection-start="141" selection-end="141" vertical-scroll-proportion="-3.6666667">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/grails-app/domain/questionnarie/Answer.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="31" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="28" selection-start="256" selection-end="264" vertical-scroll-proportion="0.0">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/grails-app/domain/questionnarie/Result.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="47" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="1527" selection-end="1527" vertical-scroll-proportion="-20.166666">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/grails-app/domain/questionnarie/Questionnarie.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="23" selection-start="282" selection-end="324" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/bootstrap.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="19" selection-start="1604" selection-end="1604" vertical-scroll-proportion="-17.041666">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/questionnarie/QuestionnarieController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="57" selection-start="1098" selection-end="1098" vertical-scroll-proportion="-3.9387755">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/principal.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="73" column="0" selection-start="1678" selection-end="1678" vertical-scroll-proportion="-2.787234">
+=======
+    <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="40" selection-start="135" selection-end="135" vertical-scroll-proportion="-1.2765957">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/grails-app/services/questionnarie/CuestionarioService.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="127" column="57" selection-start="4908" selection-end="4908" vertical-scroll-proportion="3.0334394">
+=======
+    <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/principal.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="1678" selection-end="1678" vertical-scroll-proportion="1.8846816">
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
           <folding />
         </state>
       </provider>

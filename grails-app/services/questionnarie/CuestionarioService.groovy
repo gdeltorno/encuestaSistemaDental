@@ -22,8 +22,11 @@ class CuestionarioService {
     String obligatoryQuestionExpression = ';Obligatoria'
     String questionExpression = '|;Pregunta|'
     String answerExpression = '||'
+<<<<<<< HEAD
     String typeExpression = '|tipo|'
 
+=======
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
 
     Collection<Question> getQuestions(QuestionnarieType type) {
         Collection<Question> questions = Question.findAllByType(type)
@@ -104,7 +107,11 @@ class CuestionarioService {
     }
 
     //El método recorre los resultados del parsing csv y manda a crear las preguntas y sus respuestas
+<<<<<<< HEAD
     def createQuestions(JavaFile data, QuestionnarieType type) {
+=======
+    def createQuestions(JavaFile data) {
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
         Question questionInstance = null
         Answer answerInstance = null
 
@@ -120,7 +127,11 @@ class CuestionarioService {
                  De lo contrario se almacena la question con un false (sobre-carga de método)
                  Se hace uso del operador ternario de groovy para crear la expresión de salvado
                 */
+<<<<<<< HEAD
                 questionInstance = saveQuestion(line.minus(obligatoryQuestionExpression), type)
+=======
+                questionInstance = (line.contains(obligatoryQuestionExpression)) ? saveQuestion(line.minus(obligatoryQuestionExpression), true) : saveQuestion(line)
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
 
 
             } else {
@@ -130,7 +141,11 @@ class CuestionarioService {
                  De lo contrario se almacena la respuesta con un false (sobre-carga de método)
                  Se hace uso del operador ternario de groovy para crear la expresión de salvado
                 */
+<<<<<<< HEAD
                 answerInstance = saveAnswer(questionInstance, line.minus(answerExpression))
+=======
+                answerInstance = (line.contains(correctAnswerExpression)) ? saveAnswer(questionInstance, line.minus(correctAnswerExpression), true) : saveAnswer(questionInstance, line.minus(answerExpression))
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
 
             }
 
@@ -139,7 +154,11 @@ class CuestionarioService {
     }
 
     //El método salva las preguntas a partir de la importación del file
+<<<<<<< HEAD
     protected saveQuestion(String description, QuestionnarieType type) {
+=======
+    protected saveQuestion(String description, boolean obligatory, QuestionnarieType type) {
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
         Question questionInstance = null
         Question.withNewSession {
             try {
@@ -154,7 +173,14 @@ class CuestionarioService {
         return questionInstance
     }
 
+<<<<<<< HEAD
 
+=======
+    //Se sobre sobre carga el método para no enviar el parámetro de obligatory
+    protected saveQuestion(String descripcion) {
+        saveQuestion(descripcion, false)
+    }
+>>>>>>> 61400018c150061aa1372b1ba8284ba4cdebd693
 
 
     //El método salva las respuestas a partir de la importación del file
