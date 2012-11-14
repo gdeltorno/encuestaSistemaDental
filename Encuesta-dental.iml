@@ -43,6 +43,16 @@
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.security/spring-security-web/jars/spring-security-web-3.0.7.RELEASE.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.security/spring-security-core/jars/spring-security-core-3.0.7.RELEASE.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.liquibase/liquibase-core/jars/liquibase-core-2.0.5.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.jodd/jodd/jars/jodd-3.3.4.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.4.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/asm/asm/jars/asm-3.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.jodd/jodd-wot/jars/jodd-wot-3.3.4.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/javassist/javassist/jars/javassist-3.12.0.GA.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.antlr/stringtemplate/jars/stringtemplate-3.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.antlr/antlr-runtime/jars/antlr-runtime-3.1.3.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.tmatesoft.sqljet/sqljet/jars/sqljet-1.0.4.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.tmatesoft.svnkit/trilead-ssh2/jars/trilead-ssh2-build213-svnkit-1.3-patch.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.tmatesoft.svnkit/svnkit/jars/svnkit-1.3.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

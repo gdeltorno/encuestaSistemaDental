@@ -1,12 +1,20 @@
 package questionnarie
 
 class QuestionnarieController {
-    def reporteService
-    def participacionService
+
     def cuestionarioService
 
 
+    def personal() {
+        render(view:'/index', model:[type:'personal'])
 
+
+    }
+
+    def organizacion() {
+        render(view:'/index', model:[type:'organizacion'])
+
+    }
     def index() {
         render(view: "/index")
     }
@@ -34,7 +42,7 @@ class QuestionnarieController {
 
     def principal() {
         //Se hace render de la vista principal con las participaciones disponibles, puedeContestar y el user
-        render(view: "principal", model: [canAnswer: canAnswer])
+        render(view: "principal", model: [canAnswer: true])
     }
 
     def createQuestionnarie() {

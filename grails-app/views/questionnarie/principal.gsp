@@ -10,11 +10,9 @@
 <html>
 <head>
   <title>Test cuestionario</title>
-    <meta name="layout" content="layout">
+    <meta name="layout" content="bootstrap">
 
-    <script src="https://s3.amazonaws.com/club_premier/js/jquery.js"></script>
-	<link type="text/css" rel="stylesheet" href="https://s3.amazonaws.com/club_premier/common/login_corporate/styles/login.css" />
-    <script type="text/javascript">
+      <script type="text/javascript">
         $(document).ready(function() {
             $("input[name=terminosAceptados], #terminosAceptados").click(function() {
                 $("#submitButton").attr("disabled",
@@ -28,29 +26,7 @@
         }
     </script>
     <style>
-    #login-wrap{
-    	margin-top: -14px;
-    	background: #333 url(https://s3.amazonaws.com/CPcms/login-wrap-bg2.png) repeat-x !important;
-    }
-	.box{
-		width: 800px;
-		height: 350px;
-		border-radius: 20px;
-		box-shadow: inset 0 0 30px #333,
-						  0 0 50px black;
-		background-color: #eee;
-		margin-top: 45px;
-		position: absolute;
-		font-family: "Trebuchet MS", sans-serif;
-	}
-	h1{
-		font-style: italic;
-		margin-top: 15px;
-		color: #333;
-	}
-	h3{
-		color: #333;
-	}
+
 	.terms{
 		width:300px;
 		height:100px;
@@ -87,39 +63,15 @@
 	}
     </style>
     
-<!--[if lt IE 9]>
-    <style>
-    #login-wrap{
-    	*margin-top: 0;
-    }
-	.box{
-		width: 924px;
-		height: 365px;
-		background: #eee url(https://s3.amazonaws.com/CPcms/box111.jpg) no-repeat !important;
-		margin-top: 0;
-		padding-top: 55px;
-		*margin-left: -450px;
-	}
-	.navigator{
-		width: 924px;
-	}
-    </style>
-<![endif]-->
+
 </head>
 <body>
 
 <div class="container" id="login-wrap" align="center">
 	<div class="navigator">
 		<div class="box">
-			<h1>Club Premier Corporativo te premia por aire y tierra</h1>
-			<h3>Tienes 
-			<g:if test="${participacionesDisponibles == 0}" >
-				<font color="darkred">${participacionesDisponibles}</font>
-			</g:if>
-			<g:else>
-				<font color="#005c94">${participacionesDisponibles}</font>
-			</g:else> 
-			participaciones disponibles</h3>
+			<h1>Encuesta dental</h1>
+
 			<div class="terms">
                 <g:render template="terms"/>
 			</div>

@@ -6,13 +6,12 @@ package questionnarie
 */
 
 class Questionnarie {
-    transient participacionService
     transient cuestionarioService
     QuestionnarieType type
     String email
     QuestionnarieState state = QuestionnarieState.INICIADO
 
-    static transients = ['correctAnswers','wrongAnswers','unasweredQuestions','duration','results']
+    static transients = ['results']
 
     static hasMany = [questions:Question]
 
