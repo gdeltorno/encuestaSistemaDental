@@ -1,21 +1,16 @@
+package questionnarie
 /*
 *
 * @author Roberto Pérez Alcolea (pr@manoderecha.mx)
 *
 */
 
-
-
-import groovy.time.TimeCategory
-import groovy.time.TimeDuration
-
-import javax.xml.bind.ValidationException
-
 class Questionnarie {
     transient participacionService
     transient cuestionarioService
     QuestionnarieType type
     String email
+    QuestionnarieState state = QuestionnarieState.INICIADO
 
     static transients = ['correctAnswers','wrongAnswers','unasweredQuestions','duration','results']
 
@@ -30,5 +25,12 @@ class Questionnarie {
 
     def getResults() {
         Result.findAllByQuestionnarie(this)
+    }
+
+    def beforeInsert = {
+        //Se obtienen las preguntas al azar para el questionnarie y se agregan a la colección del objeto.
+        def questionList = cuestionarioService?.getQuestions(type)
+
+        questions = questionList
     }
 }

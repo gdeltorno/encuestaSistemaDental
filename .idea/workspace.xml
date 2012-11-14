@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf94f493-78bb-4bef-a14d-4b19ff64c42e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Encuesta-dental-grailsPlugins.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/Answer.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/Question.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/Questionnarie.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/QuestionnarieType.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/Result.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/questionnarie/QuestionnarieController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/questionnarie/QuestionnarieState.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/services/questionnarie/CuestionarioService.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/questionnarie/_answerQuestion.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/questionnarie/_backButton.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/questionnarie/_finished.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/questionnarie/_terms.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/questionnarie/index.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/questionnarie/principal.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/questionnarie/register.gsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grails-app/domain/Answer.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/questionnarie/Answer.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grails-app/domain/Question.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/questionnarie/Question.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grails-app/domain/Questionnarie.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/questionnarie/Questionnarie.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grails-app/domain/QuestionnarieType.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/questionnarie/QuestionnarieType.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grails-app/domain/Result.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/questionnarie/Result.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="encuesta-dental.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,10 +76,113 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="40" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.4117647">
+            <state line="38" column="40" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuestionnarieController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/questionnarie/QuestionnarieController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="19" selection-start="155" selection-end="155" vertical-scroll-proportion="-5.869565">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_answerQuestion.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/_answerQuestion.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="35" selection-start="1687" selection-end="1687" vertical-scroll-proportion="-8.531915">
+              <folding>
+                <marker date="1352854452000" expanded="true" signature="443:827" placeholder="..." />
+                <marker date="1352854452000" expanded="true" signature="451:482" placeholder="{...}" />
+                <marker date="1352854452000" expanded="true" signature="493:554" placeholder="{...}" />
+                <marker date="1352854452000" expanded="true" signature="563:586" placeholder="{...}" />
+                <marker date="1352854452000" expanded="true" signature="593:620" placeholder="{...}" />
+                <marker date="1352854452000" expanded="true" signature="651:815" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/index.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="73.21277">
+              <folding>
+                <marker date="1346208487000" expanded="true" signature="5113:5467" placeholder="..." />
+                <marker date="1346208487000" expanded="true" signature="5130:5158" placeholder="{...}" />
+                <marker date="1346208487000" expanded="true" signature="5164:5351" placeholder="{...}" />
+                <marker date="1346208487000" expanded="true" signature="5363:5383" placeholder="{...}" />
+                <marker date="1346208487000" expanded="true" signature="5392:5418" placeholder="{...}" />
+                <marker date="1346208487000" expanded="true" signature="5430:5455" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="principal.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/principal.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="132" column="12" selection-start="3575" selection-end="3575" vertical-scroll-proportion="-10.765958">
+              <folding>
+                <marker date="1352854468000" expanded="true" signature="2231:2513" placeholder="..." />
+                <marker date="1352854468000" expanded="true" signature="2248:2276" placeholder="{...}" />
+                <marker date="1352854468000" expanded="true" signature="2282:2469" placeholder="{...}" />
+                <marker date="1352854468000" expanded="true" signature="2481:2501" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_terms.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/_terms.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="109" column="72" selection-start="2572" selection-end="2971" vertical-scroll-proportion="0.5778146">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_backButton.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/_backButton.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="90" selection-start="125" selection-end="125" vertical-scroll-proportion="-0.63829786">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_finished.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/_finished.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding>
+                <marker date="1348155408000" expanded="true" signature="445:493" placeholder="..." />
+                <marker date="1348155408000" expanded="true" signature="455:481" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CuestionarioService.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/questionnarie/CuestionarioService.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="145" column="44" selection-start="5884" selection-end="5884" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,12 +207,21 @@
         <option value="$PROJECT_DIR$/grails-app/domain/Answer.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/Questionnarie.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/Result.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/questionnarie/Answer.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/questionnarie/QuestionnarieState.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/questionnarie/Questionnarie.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/questionnarie/CuestionarioService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/questionnarie/QuestionnarieController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/questionnarie/_backButton.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/questionnarie/_answerQuestion.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/questionnarie/principal.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/questionnarie/_terms.gsp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="17" />
-    <option name="y" value="22" />
+    <option name="x" value="-14" />
+    <option name="y" value="105" />
     <option name="width" value="1440" />
     <option name="height" value="811" />
   </component>
@@ -163,9 +285,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="questionnarie" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/grails-app/views" />
       <recent name="$PROJECT_DIR$/grails-app/domain" />
     </key>
   </component>
@@ -285,8 +409,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="17" y="22" width="1440" height="811" extended-state="6" />
-    <editor active="false" />
+    <frame x="-14" y="105" width="1440" height="811" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -295,7 +419,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32998565" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32998565" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -366,24 +490,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/QuestionnarieType.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/questionnarie/QuestionnarieType.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="56" selection-start="818" selection-end="818" vertical-scroll-proportion="0.5882353">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/Answer.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/Result.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/questionnarie/Result.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
@@ -393,29 +507,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/Questionnarie.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/questionnarie/QuestionnarieState.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="40" selection-start="585" selection-end="585" vertical-scroll-proportion="0.5825243">
+        <state line="27" column="52" selection-start="833" selection-end="833" vertical-scroll-proportion="0.63182527">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/Question.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/questionnarie/Questionnarie.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="12" selection-start="769" selection-end="769" vertical-scroll-proportion="-11.333333">
+        <state line="7" column="55" selection-start="106" selection-end="106" vertical-scroll-proportion="0.1699029">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/questionnarie/Question.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="12" selection-start="702" selection-end="702" vertical-scroll-proportion="0.8252427">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/questionnarie/Answer.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="272" selection-end="272" vertical-scroll-proportion="0.3883495">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="40" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.4117647">
+        <state line="38" column="40" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/questionnarie/CuestionarioService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="44" selection-start="5884" selection-end="5884" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/questionnarie/QuestionnarieController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="155" selection-end="155" vertical-scroll-proportion="-5.869565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/_answerQuestion.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="35" selection-start="1687" selection-end="1687" vertical-scroll-proportion="-8.531915">
+          <folding>
+            <marker date="1352854452000" expanded="true" signature="443:827" placeholder="..." />
+            <marker date="1352854452000" expanded="true" signature="451:482" placeholder="{...}" />
+            <marker date="1352854452000" expanded="true" signature="493:554" placeholder="{...}" />
+            <marker date="1352854452000" expanded="true" signature="563:586" placeholder="{...}" />
+            <marker date="1352854452000" expanded="true" signature="593:620" placeholder="{...}" />
+            <marker date="1352854452000" expanded="true" signature="651:815" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/principal.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="12" selection-start="3575" selection-end="3575" vertical-scroll-proportion="-10.765958">
+          <folding>
+            <marker date="1352854468000" expanded="true" signature="2231:2513" placeholder="..." />
+            <marker date="1352854468000" expanded="true" signature="2248:2276" placeholder="{...}" />
+            <marker date="1352854468000" expanded="true" signature="2282:2469" placeholder="{...}" />
+            <marker date="1352854468000" expanded="true" signature="2481:2501" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/_backButton.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="90" selection-start="125" selection-end="125" vertical-scroll-proportion="-0.63829786">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/_finished.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1348155408000" expanded="true" signature="445:493" placeholder="..." />
+            <marker date="1348155408000" expanded="true" signature="455:481" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="73.21277">
+          <folding>
+            <marker date="1346208487000" expanded="true" signature="5113:5467" placeholder="..." />
+            <marker date="1346208487000" expanded="true" signature="5130:5158" placeholder="{...}" />
+            <marker date="1346208487000" expanded="true" signature="5164:5351" placeholder="{...}" />
+            <marker date="1346208487000" expanded="true" signature="5363:5383" placeholder="{...}" />
+            <marker date="1346208487000" expanded="true" signature="5392:5418" placeholder="{...}" />
+            <marker date="1346208487000" expanded="true" signature="5430:5455" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/questionnarie/_terms.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="72" selection-start="2572" selection-end="2971" vertical-scroll-proportion="0.5778146">
           <folding />
         </state>
       </provider>
