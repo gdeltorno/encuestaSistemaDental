@@ -22,6 +22,8 @@ class CuestionarioService {
     String obligatoryQuestionExpression = ';Obligatoria'
     String questionExpression = '|;Pregunta|'
     String answerExpression = '||'
+    String typeExpression = '|tipo|'
+
 
     Collection<Question> getQuestions(QuestionnarieType type) {
         Collection<Question> questions = Question.findAllByType(type)
@@ -102,7 +104,7 @@ class CuestionarioService {
     }
 
     //El método recorre los resultados del parsing csv y manda a crear las preguntas y sus respuestas
-    def createQuestions(JavaFile data) {
+    def createQuestions(JavaFile data, QuestionnarieType type) {
         Question questionInstance = null
         Answer answerInstance = null
 
@@ -118,7 +120,7 @@ class CuestionarioService {
                  De lo contrario se almacena la question con un false (sobre-carga de método)
                  Se hace uso del operador ternario de groovy para crear la expresión de salvado
                 */
-                questionInstance = (line.contains(obligatoryQuestionExpression)) ? saveQuestion(line.minus(obligatoryQuestionExpression), true) : saveQuestion(line)
+                questionInstance = saveQuestion(line.minus(obligatoryQuestionExpression), type)
 
 
             } else {
@@ -128,7 +130,7 @@ class CuestionarioService {
                  De lo contrario se almacena la respuesta con un false (sobre-carga de método)
                  Se hace uso del operador ternario de groovy para crear la expresión de salvado
                 */
-                answerInstance = (line.contains(correctAnswerExpression)) ? saveAnswer(questionInstance, line.minus(correctAnswerExpression), true) : saveAnswer(questionInstance, line.minus(answerExpression))
+                answerInstance = saveAnswer(questionInstance, line.minus(answerExpression))
 
             }
 
@@ -137,7 +139,7 @@ class CuestionarioService {
     }
 
     //El método salva las preguntas a partir de la importación del file
-    protected saveQuestion(String description, boolean obligatory, QuestionnarieType type) {
+    protected saveQuestion(String description, QuestionnarieType type) {
         Question questionInstance = null
         Question.withNewSession {
             try {
@@ -152,10 +154,7 @@ class CuestionarioService {
         return questionInstance
     }
 
-    //Se sobre sobre carga el método para no enviar el parámetro de obligatory
-    protected saveQuestion(String descripcion) {
-        saveQuestion(descripcion, false)
-    }
+
 
 
     //El método salva las respuestas a partir de la importación del file
